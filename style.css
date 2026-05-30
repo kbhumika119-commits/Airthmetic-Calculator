@@ -1,0 +1,28 @@
+body {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+.calculator {
+    width: 350px;
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+#display {
+    height: 70px;
+    font-size: 2rem;
+    text-align: right;
+    margin-bottom: 15px;
+}
+
+.btn {
+    height: 60px;
+    font-size: 1.3rem;
+}
